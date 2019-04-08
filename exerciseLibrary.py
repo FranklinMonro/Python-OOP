@@ -11,6 +11,8 @@ class LibraryBooks:
         if requestBook in self.books:
             print("You have borrowed the following book: ", requestBook)
             self.books.remove(requestBook)
+        else:
+            print("That book is not available")
 
 
 
